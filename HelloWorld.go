@@ -3,5 +3,6 @@ package main
 import "fmt"
 
 func main() {
-	fmt.Printf("hello world")
+	myName := "Evgeny"
+	fmt.Printf("Hello world!\nThis is my %dst commit.\nMy name is %s", 1, myName)
 }
